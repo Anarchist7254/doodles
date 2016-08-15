@@ -25,6 +25,13 @@ Doodles.panel.Home = function(config) {
                     ,preventRender: true
                 }]
             }]
+            // only to redo the grid layout after the content is rendered
+            // to fix overflow components' panels, especially when scroll bar is shown up
+            ,listeners: {
+                'afterrender': function(tabPanel) {
+                    tabPanel.doLayout();
+                }
+            }
         }]
     });
     Doodles.panel.Home.superclass.constructor.call(this,config);

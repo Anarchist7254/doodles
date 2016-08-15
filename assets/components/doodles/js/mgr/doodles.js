@@ -6,5 +6,4 @@ Ext.extend(Doodles,Ext.Component,{
     page:{},window:{},grid:{},tree:{},panel:{},combo:{},config: {}
 });
 Ext.reg('doodles',Doodles);
-
 Doodles = new Doodles();

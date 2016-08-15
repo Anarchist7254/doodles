@@ -1,0 +1,4 @@
+[2016-08-15 15:33:39] (ERROR @ D:\OpenServer\domains\doodles\core\model\modx\modsnippet.class.php : 43) Произошла ошибка в процессе создания сниппета.Array
+[2016-08-15 15:33:52] (ERROR @ D:\OpenServer\domains\doodles\core\model\modx\modsnippet.class.php : 43) Произошла ошибка в процессе сохранения сниппета.Array
+[2016-08-15 15:57:16] (ERROR @ D:\OpenServer\domains\doodles\core\model\modx\modmanagercontrollerdeprecated.class.php : 149) Could not find action file at: controllers/default/index
+[2016-08-15 15:57:24] (ERROR @ D:\OpenServer\domains\doodles\core\model\modx\modmanagercontrollerdeprecated.class.php : 149) Could not find action file at: D:/OpenServer/domains/doodles/manager/controllers/default/doodles

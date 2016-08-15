@@ -1,13 +1,13 @@
 <?php
 $xpdo_meta_map['Doodle']= array (
   'package' => 'doodles',
+  'version' => '1.0',
   'table' => 'doodles',
+  'extends' => 'xPDOSimpleObject',
   'fields' => 
   array (
     'name' => '',
     'description' => '',
-    'location' => '',
-    'downloads' => 0,
     'createdon' => NULL,
     'createdby' => 0,
     'editedon' => NULL,
@@ -29,22 +29,6 @@ $xpdo_meta_map['Doodle']= array (
       'phptype' => 'string',
       'null' => false,
       'default' => '',
-    ),
-    'location' => 
-    array (
-      'dbtype' => 'text',
-      'phptype' => 'string',
-      'null' => false,
-      'default' => '',
-    ),
-    'downloads' => 
-    array (
-      'dbtype' => 'int',
-      'precision' => '10',
-      'attributes' => 'unsigned',
-      'phptype' => 'integer',
-      'null' => false,
-      'default' => 0,
     ),
     'createdon' => 
     array (

@@ -539,4 +539,6 @@
   'thursday' => 'четверг',
   'friday' => 'пятница',
   'saturday' => 'суббота',
+  'setting_doodles.assets_ur' => 'doodles.assets_ur',
+  'setting_doodles.core_path' => 'doodles.core_path',
 );

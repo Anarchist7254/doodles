@@ -271,4 +271,6 @@
   'preserve_menuindex' => '1',
   'settings_version' => '2.5.0-pl',
   'settings_distro' => 'traditional',
+  'doodles.core_path' => 'D:\\OpenServer\\domains\\doodles\\core\\components\\doodles\\',
+  'doodles.assets_ur' => 'D:\\OpenServer\\domains\\doodles\\assets\\components\\doodles\\',
 );
