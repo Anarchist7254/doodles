@@ -1,9 +1,5 @@
 <?php
 require_once (dirname(__FILE__).'/update.class.php');
-/**
- * @package doodle
- * @subpackage processors
- */
 class DoodleUpdateFromGridProcessor extends DoodleUpdateProcessor {
     public function initialize() {
         $data = $this->getProperty('data');
@@ -12,7 +8,6 @@ class DoodleUpdateFromGridProcessor extends DoodleUpdateProcessor {
         if (empty($data)) return $this->modx->lexicon('invalid_data');
         $this->setProperties($data);
         $this->unsetProperty('data');
-
         return parent::initialize();
     }
 }

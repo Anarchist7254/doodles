@@ -1,8 +1,4 @@
 <?php
-/**
- * @package doodle
- * @subpackage processors
- */
 class DoodleUpdateProcessor extends modObjectUpdateProcessor {
     public $classKey = 'Doodle';
     public $languageTopics = array('doodles:default');
